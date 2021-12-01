@@ -33,7 +33,6 @@ Output :
 Garbage is collected
 Garbage is collected
 ```
-### Types of Garbage Collection in Java :
 ![Types of Garbage Collection](https://static.javatpoint.com/core/images/types-of-garbage-collector-in-java.png)
 ## Advantages of Garbage Collection 
 - It makes java **memory efficient** because garbage collector removes the unreferenced objects from heap memory.
