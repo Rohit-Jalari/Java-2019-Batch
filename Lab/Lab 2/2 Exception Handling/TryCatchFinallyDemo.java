@@ -1,0 +1,16 @@
+
+public class TryCatchFinallyDemo {
+    public static void main(String[] args) {
+        int num1 = 50;
+        int num2 = 0;
+        int result = 0;
+        try{
+            result = num1 / num2;
+            System.out.println("The output is :" + result);
+        }catch(Exception error){
+            System.out.println("Error message : "+ error.getMessage());
+        }finally{
+            System.out.println("Try...Catch Block is finished");
+        }
+    }
+}
